@@ -34,30 +34,3 @@
        
      <img class="phone" src="images/phone.jpg" alt="A pile of bikes covered in snow" />
     </main>
-    <section>
-       <h2 class="subheader">A little about me:</h2>     
-       <p>Aspiring web developer, itinerant wordherd, surrogate kitten snuggler. This is where I geek out about database development and complain about Google. </p>
-    </section>
-    <aside>
-        <h3>BlahBlahBlah</h3>
-        <p>BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah</p>
-    </aside>
-
-    <footer>
-      <p><small>&copy; 2019 by <a href="contact.php">Contact Joon</a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
-    </footer>
-     
-  <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
-     
-    <script>
-        function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-        }   
-     </script>    
- </body>
-</html>

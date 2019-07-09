@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-  <title>Joon Miller's WEB110 Porthole</title>
+  <title>Joon Miller's WEB110 Portal Website</title>
   <meta name="robots" content="noindex,nofollow" />
   <meta name="viewport" content="width=device-width" />
   <meta charset="utf-8" />
   <link rel="stylesheet" href="css/portal.css" />
   <link rel="stylesheet" href="css/nav.css" />
-  <link rel="stylesheet" href="css/contact-form.css" />
+     <link rel="stylesheet" href="css/contact-form.css" />
  </head>
-    
  <body>
-    <main class="wrapper">
      <header>
-     <h1>Joon Miller's WEB120 Porthole</h1>
+     <h1>Joon Miller's WEB110 Website</h1>
      <nav>
       <ul class="topnav" id="myTopnav">
        <li><a href="index.php" class="active">Welcome</a></li>
@@ -24,40 +22,30 @@
       </ul>
      </nav>
      </header>
-    </main>
      
-    <main class="wrapper">
-     
-     <img class="desktop" src="images/desktop.jpg" alt="Fallen, melting ice cream cone" />
+   <div class="wrapper">
+     <h1>Contact Joon</h1>
        
-     <img class="tablet" src="images/tablet.jpg" alt="glowing red cactus" />
-       
-     <img class="phone" src="images/phone.jpg" alt="A pile of bikes covered in snow" />
-    </main>
-    <section>
-       <h2 class="subheader">A little about me:</h2>     
-       <p>Aspiring web developer, itinerant wordherd, surrogate kitten snuggler. This is where I geek out about database development and complain about Google. </p>
-    </section>
-    <aside>
-        <h3>BlahBlahBlah</h3>
-        <p>BlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlahBlah</p>
-    </aside>
+    <?php include 'includes/simple.php';?>
+	 <p class="clear-recaptcha"></p>
 
-    <footer>
+     <footer>
       <p><small>&copy; 2019 by <a href="contact.php">Contact Joon</a>, All Rights Reserved ~ <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~ <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></small></p>
     </footer>
+  </div>
      
   <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
      
-    <script>
-        function myFunction() {
+  <script>
+    function myFunction() {
         var x = document.getElementById("myTopnav");
         if (x.className === "topnav") {
             x.className += " responsive";
         } else {
             x.className = "topnav";
         }
-        }   
-     </script>    
+    }   
+ </script>
+     
  </body>
 </html>
